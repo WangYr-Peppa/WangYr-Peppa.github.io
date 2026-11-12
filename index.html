@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Peppa Wang 的个人主页 — 自动化专业本科生，关注嵌入式、算法可视化与控制/信号处理。">
+  <title>Peppa Wang — 自动化 · 嵌入式 · 算法可视化</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">跳转到主要内容</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="https://peppawang.me" target="_blank" rel="noopener noreferrer">peppawang.me</a>
+      <nav aria-label="主导航">
+        <ul class="nav-list">
+          <li><a href="#about">关于</a></li>
+          <li><a href="#skills">技能</a></li>
+          <li><a href="#projects">项目</a></li>
+          <li><a href="https://github.com/WangYr-Peppa" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <p class="hero-kicker"> Undergraduate / Engineer / Maker</p>
+        <h1 id="hero-title">Peppa Wang</h1>
+        <p class="hero-tagline">自动化 · 嵌入式 · 算法可视化</p>
+        <p class="hero-intro">一名热爱把理论变成可运行硬件与可视化程序的工科学生。从单片机到前端 canvas，从控制算法到信号处理，享受在代码与电路之间找到清晰解法的过程。</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-secondary" href="https://github.com/WangYr-Peppa" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section" aria-labelledby="about-title">
+      <div class="container">
+        <h2 id="about-title">关于我</h2>
+        <div class="about-content">
+          <p>我是 Peppa Wang，自动化专业本科生，辅修电子信息工程。课堂之外，我把时间花在电子设计竞赛、智能车、数学建模与机器人项目上——这些经历让我习惯在有限资源与明确目标之间做工程取舍。</p>
+          <p>技术兴趣集中在控制与信号处理、嵌入式系统，以及如何用可视化让抽象算法变得直观可感。我相信好的工程展示不仅要「能跑」，还要「能讲清楚」。</p>
+          <p>平时用 Python 与 C/C++ 写逻辑，用 STM32 与 Arduino 对接真实世界，用 VS Code 与 Linux/WSL 搭建顺手的工作流。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 id="skills-title">技能栈</h2>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>编程语言</h3>
+            <ul class="skill-list">
+              <li><span class="mono">Python</span> — 数据处理、脚本工具、竞赛建模</li>
+              <li><span class="mono">C / C++</span> — 算法实现、嵌入式固件、高性能可视化</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>嵌入式与硬件</h3>
+            <ul class="skill-list">
+              <li><span class="mono">STM32</span> — 电机控制、传感器采集、通信协议</li>
+              <li><span class="mono">Arduino</span> — 快速原型与机器人平台搭建</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>工具与环境</h3>
+            <ul class="skill-list">
+              <li><span class="mono">Linux / WSL</span> — 日常开发与服务器环境</li>
+              <li><span class="mono">VS Code</span> — 主要编辑器与调试环境</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 id="projects-title">项目</h2>
+        <div class="projects-grid">
+          <article class="project-card project-featured">
+            <div class="project-meta">
+              <span class="project-badge">Featured</span>
+            </div>
+            <h3>AlgorithmVisualizer</h3>
+            <p>用 C++ 实现算法与数据结构，将生成数据交给前端 canvas 渲染，支持排序、查找、迷宫三类算法的可视化演示。</p>
+            <div class="project-links">
+              <a class="link-primary" href="https://peppawang.me/algo/" target="_blank" rel="noopener noreferrer">在线体验 <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>AudioFormatter</h3>
+            <p>音频格式处理工具，用于批量处理与格式转换。</p>
+            <div class="project-links">
+              <a href="https://github.com/WangYr-Peppa/AudioFormatter" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>Feature-Detect-and-Output-System</h3>
+            <p>特征检测与输出系统，探索信号或图像特征的自动提取与响应。</p>
+            <div class="project-links">
+              <a href="https://github.com/WangYr-Peppa/Feature-Detect-and-Output-System" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>PipManager</h3>
+            <p>Python 包管理辅助工具，简化依赖查看与日常维护。</p>
+            <div class="project-links">
+              <a href="https://github.com/WangYr-Peppa/PipManager" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>search-playbook</h3>
+            <p>检索工作流与规程整理，沉淀高效查找信息的经验。</p>
+            <div class="project-links">
+              <a href="https://github.com/WangYr-Peppa/search-playbook" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>seedream-toolkit</h3>
+            <p>图像生成提示词工具集，整理与优化 AI 绘图 prompt 的实用工具。</p>
+            <div class="project-links">
+              <a href="https://github.com/WangYr-Peppa/seedream-toolkit" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <p class="footer-links">
+          <a href="https://github.com/WangYr-Peppa" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <span class="footer-separator" aria-hidden="true">·</span>
+          <a href="mailto:wangyrpeppa@gmail.com">wangyrpeppa@gmail.com</a>
+        </p>
+        <p class="footer-copy">© Peppa Wang. 以学习和记录为目的，欢迎交流。</p>
+      </div>
+      <p class="footer-home"><a href="https://peppawang.me" target="_blank" rel="noopener noreferrer">peppawang.me</a></p>
+    </div>
+  </footer>
+</body>
+</html>
